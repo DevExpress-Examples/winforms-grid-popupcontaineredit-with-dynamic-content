@@ -28,8 +28,8 @@ Namespace Q148684
 			Me.components = New System.ComponentModel.Container()
 			Me.gridControl1 = New DevExpress.XtraGrid.GridControl()
 			Me.ordersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New Q148684.nwindDataSet()
-			Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
 			Me.colOrderID = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colCustomerID = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colEmployeeID = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -37,9 +37,9 @@ Namespace Q148684
 			Me.colDetails = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.detailsEdit = New DevExpress.XtraEditors.Repository.RepositoryItemPopupContainerEdit()
 			Me.colUseGrid = New DevExpress.XtraGrid.Columns.GridColumn()
-			Me.ordersTableAdapter = New Q148684.nwindDataSetTableAdapters.OrdersTableAdapter()
-			Me.order_DetailsTableAdapter1 = New Q148684.nwindDataSetTableAdapters.Order_DetailsTableAdapter()
-			CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.ordersTableAdapter = New nwindDataSetTableAdapters.OrdersTableAdapter()
+            Me.order_DetailsTableAdapter1 = New nwindDataSetTableAdapters.Order_DetailsTableAdapter()
+            CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.ordersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,15 +167,15 @@ Namespace Q148684
 		Private WithEvents gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
 		Private nwindDataSet As nwindDataSet
 		Private ordersBindingSource As System.Windows.Forms.BindingSource
-		Private ordersTableAdapter As Q148684.nwindDataSetTableAdapters.OrdersTableAdapter
-		Private colOrderID As DevExpress.XtraGrid.Columns.GridColumn
+        Private ordersTableAdapter As nwindDataSetTableAdapters.OrdersTableAdapter
+        Private colOrderID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colCustomerID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colEmployeeID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colOrderDate As DevExpress.XtraGrid.Columns.GridColumn
 		Private colDetails As DevExpress.XtraGrid.Columns.GridColumn
 		Private WithEvents detailsEdit As DevExpress.XtraEditors.Repository.RepositoryItemPopupContainerEdit
 		Private colUseGrid As DevExpress.XtraGrid.Columns.GridColumn
-		Private order_DetailsTableAdapter1 As Q148684.nwindDataSetTableAdapters.Order_DetailsTableAdapter
-	End Class
+        Private order_DetailsTableAdapter1 As nwindDataSetTableAdapters.Order_DetailsTableAdapter
+    End Class
 End Namespace
 

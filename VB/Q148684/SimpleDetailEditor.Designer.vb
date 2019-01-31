@@ -35,11 +35,11 @@ Namespace Q148684
 			Me.spinEdit3 = New DevExpress.XtraEditors.SpinEdit()
 			Me.labelControl4 = New DevExpress.XtraEditors.LabelControl()
 			Me.dataNavigator1 = New DevExpress.XtraEditors.DataNavigator()
-			Me.nwindDataSet = New Q148684.nwindDataSet()
-			Me.orderDetailsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.nwindDataSet = New nwindDataSet()
+            Me.orderDetailsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.productsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.productsTableAdapter = New Q148684.nwindDataSetTableAdapters.ProductsTableAdapter()
-			CType(Me.lookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.productsTableAdapter = New nwindDataSetTableAdapters.ProductsTableAdapter()
+            CType(Me.lookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.spinEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.spinEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.spinEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -191,6 +191,6 @@ Namespace Q148684
 		Private spinEdit3 As DevExpress.XtraEditors.SpinEdit
 		Private labelControl4 As DevExpress.XtraEditors.LabelControl
 		Private dataNavigator1 As DevExpress.XtraEditors.DataNavigator
-		Private productsTableAdapter As Q148684.nwindDataSetTableAdapters.ProductsTableAdapter
-	End Class
+        Private productsTableAdapter As nwindDataSetTableAdapters.ProductsTableAdapter
+    End Class
 End Namespace

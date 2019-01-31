@@ -33,12 +33,12 @@ Namespace Q148684
 			Me.colProductID = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.repositoryItemLookUpEdit1 = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
 			Me.productsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New Q148684.nwindDataSet()
-			Me.colUnitPrice = New DevExpress.XtraGrid.Columns.GridColumn()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.colUnitPrice = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colQuantity = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colDiscount = New DevExpress.XtraGrid.Columns.GridColumn()
-			Me.productsTableAdapter = New Q148684.nwindDataSetTableAdapters.ProductsTableAdapter()
-			CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.productsTableAdapter = New nwindDataSetTableAdapters.ProductsTableAdapter()
+            CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.orderDetailsBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.repositoryItemLookUpEdit1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -162,6 +162,6 @@ Namespace Q148684
 		Private colDiscount As DevExpress.XtraGrid.Columns.GridColumn
 		Private repositoryItemLookUpEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit
 		Private productsBindingSource As System.Windows.Forms.BindingSource
-		Private productsTableAdapter As Q148684.nwindDataSetTableAdapters.ProductsTableAdapter
-	End Class
+        Private productsTableAdapter As nwindDataSetTableAdapters.ProductsTableAdapter
+    End Class
 End Namespace
