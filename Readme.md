@@ -29,7 +29,7 @@ private void OnDetailsEditQueryPopup(object sender, CancelEventArgs e) {
 * [GridDetailEditor.cs](./CS/Q148684/GridDetailEditor.cs) (VB: [GridDetailEditor.vb](./VB/Q148684/GridDetailEditor.vb))
 * [SimpleDetailEditor.cs](./CS/Q148684/SimpleDetailEditor.cs) (VB: [SimpleDetailEditor.vb](./VB/Q148684/SimpleDetailEditor.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-popupcontaineredit-with-dynamic-content&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-grid-popupcontaineredit-with-dynamic-content&~~~was_helpful=no)
 
